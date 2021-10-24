@@ -16,7 +16,7 @@ import controller.Palabra;
 
 /**
 *
-* @author Elvis, Elena, Javier
+* @author Elvis, Elena, Victor, Alain
 */
 
 public class SQLPalabraDAO implements InterfazDAO<Palabra>{
@@ -26,7 +26,7 @@ public class SQLPalabraDAO implements InterfazDAO<Palabra>{
     // CONSTRUCTORES
     
  	/**
- 	 * Constructor que crea una instancia de patrÛn DAO.
+ 	 * Constructor que crea una instancia de patr√≥n DAO.
  	 * Al inicializarse obtiene los datos provenientes de la persistencia
  	 */
     public SQLPalabraDAO(){
@@ -41,7 +41,7 @@ public class SQLPalabraDAO implements InterfazDAO<Palabra>{
     }
     
     /**
- 	 * Constructor que crea una instancia de patrÛn DAO con una lista de delegaciones predeterminada.
+ 	 * Constructor que crea una instancia de patr√≥n DAO con una lista de delegaciones predeterminada.
  	 * 
  	 * @param listaPalabras lista de delegaciones predeterminada
  	 */
@@ -60,13 +60,13 @@ public class SQLPalabraDAO implements InterfazDAO<Palabra>{
     }
     
     /**
-	 * Metodo accesor de escritura que aÒade una delegaciÛn a la lista
+	 * Metodo accesor de escritura que a√±ade una delegaci√≥n a la lista
 	 * 
-	 * @param elemento DelegaciÛn a aÒadir 
+	 * @param elemento Delegaci√≥n a a√±adir 
 	 */
     public void crearElemento(Palabra elemento) throws SQLException 
     {
-    	// AÒado al listado
+    	// A√±ado al listado
         listaPalabras.addPalabra(elemento);
         // Guardo en la persistencia
         SQLConexion con = new SQLConexion();
@@ -87,18 +87,18 @@ public class SQLPalabraDAO implements InterfazDAO<Palabra>{
     		}  
     	}
     	else {
-    		System.out.println("Problema de conexiÛn a la Base de Datos");
+    		System.out.println("Problema de conexi√≥n a la Base de Datos");
     	}
     	
     	con.DesconectarBasedeDatos();
        
-        //System.out.println("Se ha creado una nueva delegaciÛn: "+elemento.getNombre());
+        //System.out.println("Se ha creado una nueva delegaci√≥n: "+elemento.getNombre());
     }
     
     /**
 	 * Metodo accesor de lectura que se encarga de obtener los datos desde la persistencia
 	 * 
-	 * @return devuelve una lista de los datos recuperados. O en caso de no existir datos, devuelve una lista vacÌa
+	 * @return devuelve una lista de los datos recuperados. O en caso de no existir datos, devuelve una lista vac√≠a
 	 */
     public List<Palabra> getTodos() throws SQLException {
     	SQLConexion con = new SQLConexion();
@@ -149,7 +149,7 @@ public class SQLPalabraDAO implements InterfazDAO<Palabra>{
             //}
 		    
 	    } else {
-	    	System.out.println("La lista de delegaciones est· vacÌa.");
+	    	System.out.println("La lista de delegaciones est√° vac√≠a.");
 	    } */
     }
     
@@ -177,7 +177,7 @@ public class SQLPalabraDAO implements InterfazDAO<Palabra>{
     		}  
     	}
     	else {
-    		System.out.println("Problema de conexiÛn a la Base de Datos");
+    		System.out.println("Problema de conexi√≥n a la Base de Datos");
     	}
     	
     	con.DesconectarBasedeDatos();
