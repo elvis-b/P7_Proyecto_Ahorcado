@@ -9,8 +9,8 @@ import java.util.List;
 
 /**
  *
- * @author Elvis, Elena, Javier
- * @param <Tipo> Interface de tipo genérico para el DAO
+* @author Elvis, Elena, Victor, Alain
+ * @param <Tipo> Interface de tipo genÃ©rico para el DAO
  */
 public interface InterfazDAO<Tipo> {
     
