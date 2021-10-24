@@ -82,7 +82,7 @@ En el package DAO están implementados los métodos junto con las consultas para
 Finalmente, en la carpeta WEB-INF se han agregado los ficheros JSP.
 
 ## Resultado actual
-![Página Inicio](./img/paginaInicio.jpg)
+![Página Inicio](./img/paginaInicio.png)
 
 Este sería el resultado de lo que se ha desarrollado hasta ahora:
 
