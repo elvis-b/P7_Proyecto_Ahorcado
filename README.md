@@ -67,6 +67,8 @@ Por otro lado, en el diagrama UML salen unos atributos adicionales ya que vamos 
 
 ![Diagrama Entidad Relación](./img/DiagramaER.png)
 
+En cuanto al diagrama ER, podemos ver que se ha creado una cardinalidad (0,N) entre Palabra y Partida, ya que 1 palabra puede estar en ninguna o en muchas partidas, mientras que una partida siempre tendrá como mucho una palabra.
+
 
 ## Clases
 ![Estructura de clases](./img/clases.jpg)
