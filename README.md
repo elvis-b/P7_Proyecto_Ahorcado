@@ -9,9 +9,7 @@
 * [Estructura de clases](#clases)
 * [Resultado final](#resultado)
 * [Próximas mejoras](#mejoras)
-* [Acknowledgements](#acknowledgements)
-* [Contact](#contact)
-<!-- * [License](#license) -->
+* [Colaboradores](#colaboradores)
 
 
 ## Información general
