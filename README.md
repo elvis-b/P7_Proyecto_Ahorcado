@@ -31,6 +31,7 @@ datos usando el patrón de diseño DAO.
 ## Tecnologias y aplicaciones utilizadas
 
 ● Los diagramas se han creado y editado por medio de la aplicación DIA.
+
 ● Para crear la estructura de las clases se ha utilizado la aplicación Eclipse, desde donde se ha creado un Proyecto Web Dinámico.
 
 
