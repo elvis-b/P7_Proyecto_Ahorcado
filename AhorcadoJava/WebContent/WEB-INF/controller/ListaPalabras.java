@@ -15,7 +15,7 @@ import java.util.List;
 
 /**
 *
-* @author Elvis, Elena, Javier
+* @author Elvis, Elena, Victor, Alain
 */
 
 //@XmlRootElement(name = "proyectos")
