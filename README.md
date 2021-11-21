@@ -30,6 +30,11 @@
 - Cuenta con grados de dificultad
 - Consta con un ranking de los nombres de los usuarios con mejores resultados
 
+![imagen](https://user-images.githubusercontent.com/62967242/142778702-412546b0-0654-47ba-a58c-ae72f1734db9.png)
+![imagen](https://user-images.githubusercontent.com/62967242/142778686-df16e5aa-adb2-46a1-b4e4-df8db7ccc81a.png)
+![imagen](https://user-images.githubusercontent.com/62967242/142778690-c53096db-d690-4581-aeef-d83abb7aafa2.png)
+![imagen](https://user-images.githubusercontent.com/62967242/142778692-3f0e0a9c-04d3-4de6-a118-56bf4de849c4.png)
+
 
 
 ## Setup
@@ -37,7 +42,6 @@
 Tener implementado un directorio con protocolo Lightweight Directory Access Protocol (LDAP)
 Disponer de un servidor de aplicaciones Tomcat
 Correr la BBDD necesaria para la persistencía del juego
-
 
 
 
