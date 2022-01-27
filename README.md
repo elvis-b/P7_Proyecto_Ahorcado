@@ -58,15 +58,3 @@ La carga automática de los datos con el primer arranque.
 Actualmente sólo crea la BBDD pero sin cargar datos iniciales, hay que insertar posteriormente las palabras en la BBDD.
 
 Implementar el diseño del muñeco por medio de CSS, no por medio de imágenes .JPG
-
-
-## Creditos
-
-Estudiantes de la UOC-Jesuites
-• ALAIN ROVIRA
-• ELVIS BUCATARIU
-• ELENA PERIS MERCÉ
-• VICTOR FUENTES NOGUERA
-
-
-
